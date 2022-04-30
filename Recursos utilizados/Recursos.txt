@@ -1,0 +1,20 @@
+Codigo y snippets de
+
+- Bootstrap 5 ejemplos
+- Freefrontend (codepen.io)
+- w3 examples (css, html, javascript)
+
+
+Personalización de bootstrap
+- Bootstrap Build https://bootstrap.build/app
+
+
+Paleta de colores, complementarios?
+
+-Paletton.com
+o
+-coolors.co
+
+Fuente, Josto....
+
+Iconos?? FontAwesome, Bootstrap????
