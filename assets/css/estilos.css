@@ -446,8 +446,6 @@ footer a h6 {
 }
 
 .linkft:hover {
-  /* border-bottom: #3ee9d1 2px solid; */
   border-top: salmon 2px solid;
   border-bottom: none;
-  color:red;
 }
