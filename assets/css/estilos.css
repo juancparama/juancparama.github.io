@@ -13,6 +13,8 @@ body {
     }
   }
 
+
+
 .nav-link {
     display: block;
     padding: .5rem 1rem;
@@ -337,6 +339,8 @@ button#enviar {
   }
 
   /* GALERÍA */
+
+  
   .divgal {
     position: relative;
     width: 50%;
@@ -358,11 +362,6 @@ button#enviar {
   
   .divgal:hover .overlay {
     opacity: 0.9;
-  }
-
-  div.divgal img {
-    width: 90%;
-
   }
   
   .textgal {
@@ -457,4 +456,16 @@ footer a:hover {
   height: 2px;
 }
 
-/* style="margin: auto;" */
+/* Galería Plantillas  */
+
+
+.gallery img{
+	background-color: #ffffff;
+	padding: 15px;
+	width: 100%;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+#gallery-modal .modal-img{
+	width: 100%;
+}
