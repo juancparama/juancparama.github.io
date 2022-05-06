@@ -1,23 +1,30 @@
 <!doctype html>
-<html lang="en">
-
+<html lang="es">
   <head>
-    <title>Galería</title>
+    <title>Contacto</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="assets/images/logo-small.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/estilos.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+
+    </style>
   </head>
 
   
-<body>
+  <body>
 
+    
 <!-- Navegación -->
 
 <nav class="navbar navbar-expand-lg bg-light navbar-light border-bottom shadow fixed-top" id="navbar">
@@ -41,8 +48,8 @@
                 <li><a class="dropdown-item" href="historiaEscudo.html">Escudo</a></li>
               </ul>
             </div>
-            <a class="nav-link active" href="galeria.html">Galería</a>
-            <a class="btn btn-outline-success btn-lg mb-2" aria-current="page" href="contacto.html" role="button">Contacto</a>
+            <a class="nav-link" href="galeria.html">Galería</a>
+            <a class="btn btn-outline-success btn-lg mb-2 active" aria-current="page" href="contacto.html" role="button">Contacto</a>
           </div>
       </div>
 
@@ -64,57 +71,131 @@
 <!-- Fin BreadCrumb -->
 
 
-  <!-- INTRO -->
+<!-- Formulario -->
 
-  <div class="container-fluid bg-success text-white py-5 text-center">
-    <h1 class="display-1">Galería de imágenes</h1>
-    <h5 class="lead">Algunas fotografías de nuestros jugadores.</h5>
-  </div>
+<div class="container-fluid px-5 my-5">
+
+    <div class="row justify-content-center">
   
-  <!-- FIN INTRO -->
+      <div class="col-xl-10">
+      
+        <div class="card border-0 rounded-3 shadow-lg overflow-hidden">
 
-  <!-- ======================== -->
+          <div class="card-body p-0">
 
+            <div class="row g-0">
 
+              <div class="col-md-6 d-lg-block text-center align-center p-5">
+                <img src="assets/images/contacto/contact.jpg" id="contactimg" class="img-fluid" alt="Foto de contacto">
+              </div>
+              <div class="col-md-6 p-4">
+                <div class="text-center">
+                  <div class="hx display-2">¡Escríbenos!</div>
 
-  <div class="container bg-light my-5">
-
-    <div class="row">
-
-      <div class="col-12 col-md-4 divgal text-center py-3">
-        <img class="img-thumbnail" alt="Fotografía de la exposición del Ayuntamiento" src="assets/images/ayto/gal-ayto-sm.jpg" style="margin: 0;">
-        <a href="galeria-ayto.html">  
-          <div class="overlay">
-            <div class="textgal">Exposición<br>'Yo soy deporte'</div>
+                  <p class="mb-4 text-muted">Ponte en contacto con nosotros a través de este formulario.</p>
+                </div>
+ 
+                <form id="formulario" action="mailto:avilestm@gmail.com">
+  
+                  <!-- Nombre -->
+                  <div class="form-floating mb-3">
+                    <input class="form-control" id="nombre" type="text" placeholder="Nombre" required />
+                    <label>Nombre</label>
+                  </div>
+  
+                  <!-- Email -->
+                  <div class="form-floating mb-3">
+                    <input class="form-control" id="email" type="email" placeholder="email" required />
+                    <label>Dirección de email</label>
+                  </div>
+  
+                  <!-- Mensaje -->
+                  <div class="form-floating mb-3">
+                    <textarea class="form-control" id="mensaje" placeholder="Mensaje" style="height: 10rem;" required></textarea>
+                    <label>Mensaje</label>
+                  </div>
+  
+                  <!-- Envío -->
+                  <div class="d-grid">
+                    <button class="btn btn-success btn-lg " id="enviar" type="submit">Enviar</button>
+                  </div>
+                
+                </form>
+  
+              </div>
+            </div>
+  
           </div>
-          </a>
-      </div>
-
-      <div class="col-12 col-md-4 divgal text-center py-3">
-        <img class="img-thumbnail" alt="Fotografía de la plantilla del equipo" src="assets/images/plantilla/gal-plantilla-sm.jpg" style="margin: 0;">
-        <a href="galeria-plantillas.html">
-        <div class="overlay">
-          <div class="textgal">Fotos de la plantilla</div>
         </div>
-        </a>
       </div>
-
-
-      <div class="col-12 col-md-4 divgal text-center py-3">
-        <img class="img-thumbnail" alt="Fotografía de una jugadora del club" src="assets/images/jugadores/gal-330368_119937371456290_1596202611_o-sm.jpg" style="margin: 0;">
-        <a href="galeria-jugadores.html">
-          <div class="overlay">
-            <div class="textgal">Fotos de jugadores</div>
-          </div>
-          </a>
-      </div>
-
     </div>
+</div>
   
-  </div>
+
+<!-- Fin formulario -->
 
 
-  <!-- Footer -->
+
+<!-- Mapa -->
+
+  <div class="container-fluid g-0 p-5">
+
+    <div class="row justify-content-center">
+  
+      <div class="col-xl-10 bg-secondary p-3">
+
+
+	<div class="row g-0 align-items-center">
+		<div class="col-lg-6 d-flex justify-content-center">
+			<div class="col-12 col-lg-8 p-4 text-white">
+				<div class="lc-block mb-5">
+					<div>
+						<h2 class="h text-black display-4">Dónde <span class="text-danger">estamos</span></h2>
+					</div>
+				</div>
+				<div class="lc-block">
+					<div>
+						<h2 class="fw-bolder">Dirección</h2>
+					</div>
+				</div>
+				<div class="lc-block">
+					<div>
+						<p>Polideportivo de La Magdalena<br>Calle Sabino Álvarez Gendín 14 33402 Avilés, Asturias</p>
+					</div>
+				</div>
+
+				<div class="lc-block">
+					<div>
+						<h2 class="fw-bolder">Número de teléfono</h2>
+					</div>
+				</div>
+
+				<div class="lc-block">
+					<div>
+						<p>Fijo 985511875<br>Móvil 696565761</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="col-lg-6">
+			<div class="lc-block">
+				<div class="ratio ratio-16x9">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2891.701622621523!2d-5.930611084143576!3d43.550261279124946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd369b6f74a07089%3A0x9ec15d2b18bc392a!2sComplejo%20Deportivo%20de%20la%20Magdalena!5e0!3m2!1ses!2ses!4v1649463373642!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+
+<!-- Fin mapa -->
+
+
+
+
+  <!-- FOOTER -->
 
 
   <div class="container-fluid my-5">
@@ -193,10 +274,12 @@
   
   </div>
   
-    <!-- Fin Footer -->
+    <!-- FIN FOOTER ======= -->
 
-    
-  
+
+
+
+  <!-- =============================== -->
   <script src="assets/js/script.js"></script>
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
