@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <title>Contacto</title>
     <meta charset="utf-8">
@@ -29,26 +29,30 @@
 
 <nav class="navbar navbar-expand-lg bg-light navbar-light border-bottom shadow fixed-top" id="navbar">
   <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="assets/images/logo-small.png" width="80" id="logo" class="logo d-none d-md-block" />
-        <a class="navbar-brand mx-2 nav-link d-none d-sm-block" href="#">Club Avilés Tenis de Mesa</a>
-        <a class="navbar-brand mx-2 px-0 nav-link d-block d-sm-none" href="#">Club Avilés T. M.</a>
-      </a> 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/images/logo-small.png" alt="Logo del equipo" width="80" id="logo" class="logo d-none d-md-inline-block" />
+        <span class="navbar-brand mx-2 nav-link d-none d-sm-inline-block">Club Avilés Tenis de Mesa</span>
+        <span class="navbar-brand mx-1 pr-0 nav-link d-inline-block d-sm-none">Club Avilés T. M.</span>
+      </a>
+        
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto">
             <a class="nav-link" href="index.html">Inicio</a>
-            <li class="nav-item dropdown">
+            <div class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Historia</a>
               <ul class="dropdown-menu" aria-labelledby="dropdown04">
                 <li><a class="dropdown-item" href="historiaClub.html">Club</a></li>
                 <li><a class="dropdown-item" href="historiaEscudo.html">Escudo</a></li>
               </ul>
-            </li>
+            </div>
             <a class="nav-link" href="galeria.html">Galería</a>
             <a class="btn btn-outline-success btn-lg mb-2 active" aria-current="page" href="contacto.html" role="button">Contacto</a>
           </div>
       </div>
+
   </div>
 </nav>
 
@@ -62,7 +66,7 @@
 	  <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
 	  <li class="breadcrumb-item active" aria-current="page">Contacto</li>
 	</ol>
-  </nav>
+</nav>
 
 <!-- Fin BreadCrumb -->
 
@@ -82,7 +86,7 @@
             <div class="row g-0">
 
               <div class="col-md-6 d-lg-block text-center align-center p-5">
-                <img src="assets/images/contacto/contact.jpg" width="100%" class="img-fluid">
+                <img src="assets/images/contacto/contact.jpg" id="contactimg" class="img-fluid" alt="Foto de contacto">
               </div>
               <div class="col-md-6 p-4">
                 <div class="text-center">
@@ -96,19 +100,19 @@
                   <!-- Nombre -->
                   <div class="form-floating mb-3">
                     <input class="form-control" id="nombre" type="text" placeholder="Nombre" required />
-                    <label for="name">Nombre</label>
+                    <label>Nombre</label>
                   </div>
   
                   <!-- Email -->
                   <div class="form-floating mb-3">
                     <input class="form-control" id="email" type="email" placeholder="email" required />
-                    <label for="emailAddress">Dirección de email</label>
+                    <label>Dirección de email</label>
                   </div>
   
                   <!-- Mensaje -->
                   <div class="form-floating mb-3">
-                    <textarea class="form-control" id="mensaje" type="text" placeholder="Mensaje" style="height: 10rem;" required></textarea>
-                    <label for="message">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" placeholder="Mensaje" style="height: 10rem;" required></textarea>
+                    <label>Mensaje</label>
                   </div>
   
                   <!-- Envío -->
@@ -145,29 +149,29 @@
 		<div class="col-lg-6 d-flex justify-content-center">
 			<div class="col-12 col-lg-8 p-4 text-white">
 				<div class="lc-block mb-5">
-					<div editable="rich">
+					<div>
 						<h2 class="h text-black display-4">Dónde <span class="text-danger">estamos</span></h2>
 					</div>
 				</div>
 				<div class="lc-block">
-					<div editable="rich">
+					<div>
 						<h2 class="fw-bolder">Dirección</h2>
 					</div>
 				</div>
 				<div class="lc-block">
-					<div editable="rich">
+					<div>
 						<p>Polideportivo de La Magdalena<br>Calle Sabino Álvarez Gendín 14 33402 Avilés, Asturias</p>
 					</div>
 				</div>
 
 				<div class="lc-block">
-					<div editable="rich">
+					<div>
 						<h2 class="fw-bolder">Número de teléfono</h2>
 					</div>
 				</div>
 
 				<div class="lc-block">
-					<div editable="rich">
+					<div>
 						<p>Fijo 985511875<br>Móvil 696565761</p>
 					</div>
 				</div>
@@ -176,7 +180,7 @@
 		</div>
 		<div class="col-lg-6">
 			<div class="lc-block">
-				<div class="ratio ratio-16x9" lc-helper="gmap-embed">
+				<div class="ratio ratio-16x9">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2891.701622621523!2d-5.930611084143576!3d43.550261279124946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd369b6f74a07089%3A0x9ec15d2b18bc392a!2sComplejo%20Deportivo%20de%20la%20Magdalena!5e0!3m2!1ses!2ses!4v1649463373642!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 				</div>
 			</div>
@@ -215,7 +219,7 @@
               
               <hr class="mb-2 mt-0 d-inline-block mx-auto fthr" />
               <div class="text-center">
-                <img src="assets/images/logo-small.png" style="width:80px;margin: auto;" id="logo" class="logo" />
+                <img src="assets/images/logo-small.png" style="width:80px;margin: auto;" class="logo" alt="Escudo del club" />
               </div>
               <p>
                 <i class="fa-solid fa-table-tennis-paddle-ball pr-2"></i>1985<i class="fa-solid fa-table-tennis-paddle-ball fa-flip-horizontal pr-2"></i>

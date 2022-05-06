@@ -46,6 +46,27 @@ body {
 /* Fin efecto scroll */
 
 
+/* Estilos para Historia del Escudo  */
+
+.featurette-divider {
+  margin: 5rem 0;
+}
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+@media (min-width: 40em) {
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+/* Fin estilos para Historia del Escudo  */
+
+
 .masthead {
     height: 100vh;
     min-height: 500px;

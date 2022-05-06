@@ -1,5 +1,6 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
+
   <head>
     <title>Galería</title>
     <meta charset="utf-8">
@@ -12,61 +13,58 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/estilos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  
-
-    <style>
-
-    </style>
   </head>
 
   
   <body>
 
-    <!-- Navegación -->
+<!-- Navegación -->
 
 <nav class="navbar navbar-expand-lg bg-light navbar-light border-bottom shadow fixed-top" id="navbar">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="assets/images/logo-small.png" width="80" id="logo" class="logo d-none d-md-block" />
-          <a class="navbar-brand mx-2 nav-link d-none d-sm-block" href="#">Club Avilés Tenis de Mesa</a>
-          <a class="navbar-brand mx-2 px-0 nav-link d-block d-sm-none" href="#">Club Avilés T. M.</a>
-        </a> 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ml-auto">
-              <a class="nav-link" href="index.html">Inicio</a>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Historia</a>
-                <ul class="dropdown-menu" aria-labelledby="dropdown04">
-                  <li><a class="dropdown-item" href="historiaClub.html">Club</a></li>
-                  <li><a class="dropdown-item" href="historiaEscudo.html">Escudo</a></li>
-                </ul>
-              </li>
-              <a class="nav-link active" aria-current="page" href="galeria.html">Galería</a>
-              <a class="btn btn-outline-success btn-lg mb-2" href="contacto.html" role="button">Contacto</a>
+  <div class="container-fluid">
+
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/images/logo-small.png" alt="Logo del equipo" width="80" id="logo" class="logo d-none d-md-inline-block" />
+        <span class="navbar-brand mx-2 nav-link d-none d-sm-inline-block">Club Avilés Tenis de Mesa</span>
+        <span class="navbar-brand mx-1 pr-0 nav-link d-inline-block d-sm-none">Club Avilés T. M.</span>
+      </a>
+        
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link" href="index.html">Inicio</a>
+            <div class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Historia</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown04">
+                <li><a class="dropdown-item" href="historiaClub.html">Club</a></li>
+                <li><a class="dropdown-item" href="historiaEscudo.html">Escudo</a></li>
+              </ul>
             </div>
-        </div>
-    </div>
-  </nav>
-  
-  <!-- Fin Navegación -->
+            <a class="nav-link" href="galeria.html">Galería</a>
+            <a class="btn btn-outline-success btn-lg mb-2 active" aria-current="page" href="contacto.html" role="button">Contacto</a>
+          </div>
+      </div>
 
-    <!-- BreadCrumb -->
+  </div>
+</nav>
+
+<!-- Fin Navegación -->
 
 
+<!-- BreadCrumb -->
   
 <nav aria-label="breadcrumb" class="mb-0"> 
 	<ol class="breadcrumb mt-3 bg-info border-white">
 	  <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
-	  <li class="breadcrumb-item"><a href="galeria.html">Galería</a></li>
-	  <li class="breadcrumb-item active" aria-current="page">Galería 'Yo soy deporte'</li>
+	  <li class="breadcrumb-item active" aria-current="page">Contacto</li>
 	</ol>
-  </nav>
+</nav>
 
 <!-- Fin BreadCrumb -->
 
 
-  <!-- INTRO -->
+  <!-- Intro -->
 
   <div class="container-fluid bg-success text-white py-5 text-center">
     <h1 class="d-none d-sm-block display-1">Yo soy deporte</h1>
@@ -74,50 +72,50 @@
     <h5 class="lead">Fotografías pertenecientes a la exposición 'Yo soy deporte' del Ayuntamiento de Avilés</h5>
   </div>
   
-  <!-- FIN INTRO -->
+  <!-- FIN Intro -->
 
-  <!-- ======================== -->
 
+  <!-- Contenido Principal -->
 
   <section class="gallery py-5">
     <div class="container-lg">
        <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-lg-4" id="gallery" data-toggle="modal" data-target="#exampleModal">
 
     <div class="col">
-      <img class="w-100 img-thumbnail" src="assets/images/ayto/118626012.jpg" data-target="#carouselExample" data-slide-to="0">
+      <img class="w-100 img-thumbnail" src="assets/images/ayto/118626012.jpg" data-target="#carouselExample" data-slide-to="0" alt="Foto 1 de la galería">
     </div>
     <div class="col">
-      <img class="w-100 img-thumbnail" src="assets/images/ayto/MG_3380.jpg" data-target="#carouselExample" data-slide-to="1">
+      <img class="w-100 img-thumbnail" src="assets/images/ayto/MG_3380.jpg" data-target="#carouselExample" data-slide-to="1" alt="Foto 2 de la galería">
     </div>
     <div class="col">
-      <img class="w-100 img-thumbnail" src="assets/images/ayto/MG_3399.jpg" data-target="#carouselExample" data-slide-to="2">
+      <img class="w-100 img-thumbnail" src="assets/images/ayto/MG_3399.jpg" data-target="#carouselExample" data-slide-to="2" alt="Foto 3 de la galería">
     </div>
     <div class="col">
-      <img class="w-100 img-thumbnail" src="assets/images/ayto/MG_3402.jpg" data-target="#carouselExample" data-slide-to="3">
+      <img class="w-100 img-thumbnail" src="assets/images/ayto/MG_3402.jpg" data-target="#carouselExample" data-slide-to="3" alt="Foto 4 de la galería">
     </div>
     <div class="col">
-      <img class="w-100 img-thumbnail" src="assets/images/ayto/MG_3407.jpg" data-target="#carouselExample" data-slide-to="4">
+      <img class="w-100 img-thumbnail" src="assets/images/ayto/MG_3407.jpg" data-target="#carouselExample" data-slide-to="4" alt="Foto 5 de la galería">
     </div>
     <div class="col">
-      <img class="w-100 img-thumbnail" src="assets/images/ayto/MG_3428.jpg" data-target="#carouselExample" data-slide-to="5">
+      <img class="w-100 img-thumbnail" src="assets/images/ayto/MG_3428.jpg" data-target="#carouselExample" data-slide-to="5" alt="Foto 6 de la galería">
     </div>
     <div class="col">
-      <img class="w-100 img-thumbnail" src="assets/images/ayto/MG_3434.jpg" data-target="#carouselExample" data-slide-to="6">
+      <img class="w-100 img-thumbnail" src="assets/images/ayto/MG_3434.jpg" data-target="#carouselExample" data-slide-to="6" alt="Foto 7 de la galería">
     </div>
     <div class="col">
-      <img class="w-100 img-thumbnail" src="assets/images/ayto/MG_3449.jpg" data-target="#carouselExample" data-slide-to="7">
+      <img class="w-100 img-thumbnail" src="assets/images/ayto/MG_3449.jpg" data-target="#carouselExample" data-slide-to="7" alt="Foto 8 de la galería">
     </div>
     <div class="col">
-      <img class="w-100 img-thumbnail" src="assets/images/ayto/MG_73352291.jpg" data-target="#carouselExample" data-slide-to="8">
+      <img class="w-100 img-thumbnail" src="assets/images/ayto/MG_73352291.jpg" data-target="#carouselExample" data-slide-to="8" alt="Foto 9 de la galería">
     </div>
     <div class="col">
-      <img class="w-100 img-thumbnail" src="assets/images/ayto/MG_73622296.jpg" data-target="#carouselExample" data-slide-to="9">
+      <img class="w-100 img-thumbnail" src="assets/images/ayto/MG_73622296.jpg" data-target="#carouselExample" data-slide-to="9" alt="Foto 10 de la galería">
     </div>
     <div class="col">
-      <img class="w-100 img-thumbnail" src="assets/images/ayto/MG_73682289.jpg" data-target="#carouselExample" data-slide-to="10">
+      <img class="w-100 img-thumbnail" src="assets/images/ayto/MG_73682289.jpg" data-target="#carouselExample" data-slide-to="10" alt="Foto 11 de la galería">
     </div>
     <div class="col">
-      <img class="w-100 img-thumbnail" src="assets/images/ayto/MG_73862297.jpg" data-target="#carouselExample" data-slide-to="11">
+      <img class="w-100 img-thumbnail" src="assets/images/ayto/MG_73862297.jpg" data-target="#carouselExample" data-slide-to="11" alt="Foto 12 de la galería">
     </div>
   </div>
   </div>
@@ -155,40 +153,40 @@
 
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img class="d-block w-100" src="assets/images/ayto/118626012.jpg">
+              <img class="d-block w-100" src="assets/images/ayto/118626012.jpg" alt="Foto 1 de la galería">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="assets/images/ayto/MG_3380.jpg">
+              <img class="d-block w-100" src="assets/images/ayto/MG_3380.jpg" alt="Foto 2 de la galería">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="assets/images/ayto/MG_3399.jpg">
+              <img class="d-block w-100" src="assets/images/ayto/MG_3399.jpg" alt="Foto 3 de la galería">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="assets/images/ayto/MG_3402.jpg">
+              <img class="d-block w-100" src="assets/images/ayto/MG_3402.jpg" alt="Foto 4 de la galería"> 
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="assets/images/ayto/MG_3407.jpg">
+              <img class="d-block w-100" src="assets/images/ayto/MG_3407.jpg" alt="Foto 5 de la galería">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="assets/images/ayto/MG_3428.jpg">
+              <img class="d-block w-100" src="assets/images/ayto/MG_3428.jpg" alt="Foto 6 de la galería">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="assets/images/ayto/MG_3434.jpg">
+              <img class="d-block w-100" src="assets/images/ayto/MG_3434.jpg" alt="Foto 7 de la galería">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="assets/images/ayto/MG_3449.jpg">
+              <img class="d-block w-100" src="assets/images/ayto/MG_3449.jpg" alt="Foto 8 de la galería">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="assets/images/ayto/MG_73352291.jpg">
+              <img class="d-block w-100" src="assets/images/ayto/MG_73352291.jpg" alt="Foto 9 de la galería">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="assets/images/ayto/MG_73622296.jpg">
+              <img class="d-block w-100" src="assets/images/ayto/MG_73622296.jpg" alt="Foto 10 de la galería">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="assets/images/ayto/MG_73682289.jpg">
+              <img class="d-block w-100" src="assets/images/ayto/MG_73682289.jpg" alt="Foto 11 de la galería">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="assets/images/ayto/MG_73862297.jpg">
+              <img class="d-block w-100" src="assets/images/ayto/MG_73862297.jpg" alt="Foto 12 de la galería">
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
@@ -210,89 +208,88 @@
 </div>
 </div>
 
-  <!-- Fin galería imágenes -->
+  <!-- Fin contenido principal -->
 
 
-    <!-- FOOTER -->
+  <!-- Footer -->
 
-
-    <div class="container-fluid my-5">
+  <div class="container-fluid my-5">
   
-      <footer class="text-center text-lg-start text-dark bg-light">
-    
-        <section class="d-flex justify-content-between p-4 text-white ft">
-          <div class="me-5">
-          </div>
-          <div>
-            <i class="fa-solid fa-table-tennis-paddle-ball fa-flip-horizontal fa-3x"></i>
-          </div>
-        </section>
-    
-        <section class="">
-          <div class="container text-center text-md-start mt-5">
-            <div class="row mt-3">
-    
-              <div class="col-12 col-sm-3 mx-auto mb-4">
-                <h6 class="text-uppercase fw-bold">Club Avilés Tenis de Mesa</h6>
-                
-                <hr class="mb-2 mt-0 d-inline-block mx-auto fthr" />
-                <div class="text-center">
-                  <img src="assets/images/logo-small.png" style="width:80px;margin: auto;" id="logo" class="logo" />
-                </div>
-                <p>
-                  <i class="fa-solid fa-table-tennis-paddle-ball pr-2"></i>1985<i class="fa-solid fa-table-tennis-paddle-ball fa-flip-horizontal pr-2"></i>
-                </p>
+    <footer class="text-center text-lg-start text-dark bg-light">
+  
+      <section class="d-flex justify-content-between p-4 text-white ft">
+        <div class="me-5">
+        </div>
+        <div>
+          <i class="fa-solid fa-table-tennis-paddle-ball fa-flip-horizontal fa-3x"></i>
+        </div>
+      </section>
+  
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-3">
+  
+            <div class="col-12 col-sm-3 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold">Club Avilés Tenis de Mesa</h6>
+              
+              <hr class="mb-2 mt-0 d-inline-block mx-auto fthr" />
+              <div class="text-center">
+                <img src="assets/images/logo-small.png" style="width:80px;margin: auto;" class="logo" alt="Escudo del club" />
               </div>
-    
-              <div class="col-12 col-sm-6 mx-auto mb-4">
-                
-                <a href="index.html">
-                  <h6 class="text-uppercase fw-bold"><span class="mb-4 mt-0 d-inline-block mx-auto linkft">Inicio</span></h6>
+              <p>
+                <i class="fa-solid fa-table-tennis-paddle-ball pr-2"></i>1985<i class="fa-solid fa-table-tennis-paddle-ball fa-flip-horizontal pr-2"></i>
+              </p>
+            </div>
+  
+            <div class="col-12 col-sm-6 mx-auto mb-4">
+              
+              <a href="index.html">
+                <h6 class="text-uppercase fw-bold"><span class="mb-4 mt-0 d-inline-block mx-auto linkft">Inicio</span></h6>
+              </a>
+              <a href="historia.html">
+                <h6 class="text-uppercase fw-bold"><span class="mb-4 mt-0 d-inline-block mx-auto linkft">Historia</span></h6>
+              </a>
+              <a href="galeria.html">
+                <h6 class="text-uppercase fw-bold"><span class="mb-4 mt-0 d-inline-block mx-auto linkft">Galeria</span></h6>
+              </a>
+              
+              <div>
+                <a href="https://www.facebook.com/pages/Club-Avil%C3%A9s-Tenis-de-Mesa/119929431457084" target="_blank" class="text-dark me-4 px-2">
+                    <i class="fab fa-facebook-f fa-3x"></i>
                 </a>
-                <a href="historia.html">
-                  <h6 class="text-uppercase fw-bold"><span class="mb-4 mt-0 d-inline-block mx-auto linkft">Historia</span></h6>
+                <a href="https://twitter.com/avilestm" target="_blank" class="text-dark me-4 px-2">
+                    <i class="fab fa-twitter fa-3x"></i>
                 </a>
-                <a href="galeria.html">
-                  <h6 class="text-uppercase fw-bold"><span class="mb-4 mt-0 d-inline-block mx-auto linkft">Galeria</span></h6>
+                <a href="https://www.instagram.com/clubavilestm" target="_blank" class="text-dark me-4 px-2">
+                    <i class="fab fa-instagram fa-3x"></i>
                 </a>
-                
-                <div>
-                  <a href="https://www.facebook.com/pages/Club-Avil%C3%A9s-Tenis-de-Mesa/119929431457084" target="_blank" class="text-dark me-4 px-2">
-                      <i class="fab fa-facebook-f fa-3x"></i>
-                  </a>
-                  <a href="https://twitter.com/avilestm" target="_blank" class="text-dark me-4 px-2">
-                      <i class="fab fa-twitter fa-3x"></i>
-                  </a>
-                  <a href="https://www.instagram.com/clubavilestm" target="_blank" class="text-dark me-4 px-2">
-                      <i class="fab fa-instagram fa-3x"></i>
-                  </a>
-                </div>
-                
               </div>
               
-              <div class="col-12 col-sm-3 mx-auto mb-md-0 mb-4">
-                <a href="contacto.html">
-                  <h6 class="text-uppercase fw-bold"><span class="mb-4 mt-0 d-inline-block mx-auto linkft">Contacto</span></h6>
-                </a>
-                <p><i class="fas fa-home mr-3"></i> Polideportivo de La Magdalena, Avilés, Asturias</p>
-                <p><i class="fas fa-envelope mr-3"></i> avilestm@gmail.com</p>
-                <p><i class="fas fa-phone mr-3"></i> 696 56 57 61</p>
-                <p><i class="fas fa-print mr-3"></i> 985 56 03 92</p>
-              </div>
+            </div>
+            
+            <div class="col-12 col-sm-3 mx-auto mb-md-0 mb-4">
+              <a href="contacto.html">
+                <h6 class="text-uppercase fw-bold"><span class="mb-4 mt-0 d-inline-block mx-auto linkft">Contacto</span></h6>
+              </a>
+              <p><i class="fas fa-home mr-3"></i> Polideportivo de La Magdalena, Avilés, Asturias</p>
+              <p><i class="fas fa-envelope mr-3"></i> avilestm@gmail.com</p>
+              <p><i class="fas fa-phone mr-3"></i> 696 56 57 61</p>
+              <p><i class="fas fa-print mr-3"></i> 985 56 03 92</p>
             </div>
           </div>
-        </section>
-    
-        <div class="text-center p-3 bg-secondary text-white">
-          <i class="fa-regular fa-copyright"></i>
-          2022 Club Avilés T. M.
         </div>
-      
-      </footer>
+      </section>
+  
+      <div class="text-center p-3 bg-secondary text-white">
+        <i class="fa-regular fa-copyright"></i>
+        2022 Club Avilés T. M.
+      </div>
     
-    </div>
-    
-      <!-- FIN FOOTER ======= -->
+    </footer>
+  
+  </div>
+  
+  <!-- Fin Footer -->
   
 
 
