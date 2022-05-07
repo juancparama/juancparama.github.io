@@ -22,44 +22,45 @@
 
 <nav class="navbar navbar-expand-lg bg-light navbar-light border-bottom shadow fixed-top" id="navbar">
   <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="assets/images/logo-small.png" width="80" id="logo" class="logo d-none d-md-block" />
-        <a class="navbar-brand mx-2 nav-link d-none d-sm-block" href="#">Club Avilés Tenis de Mesa</a>
-        <a class="navbar-brand mx-2 px-0 nav-link d-block d-sm-none" href="#">Club Avilés T. M.</a>
-      </a> 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/images/logo-small.png" alt="Logo del equipo" width="80" id="logo" class="logo d-none d-md-inline-block" />
+        <span class="navbar-brand mx-2 nav-link d-none d-sm-inline-block">Club Avilés Tenis de Mesa</span>
+        <span class="navbar-brand mx-1 pr-0 nav-link d-inline-block d-sm-none">Club Avilés T. M.</span>
+      </a>
+        
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto">
-            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-            <li class="nav-item dropdown">
+            <a class="nav-link active" href="index.html">Inicio</a>
+            <div class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Historia</a>
               <ul class="dropdown-menu" aria-labelledby="dropdown04">
                 <li><a class="dropdown-item" href="historiaClub.html">Club</a></li>
                 <li><a class="dropdown-item" href="historiaEscudo.html">Escudo</a></li>
               </ul>
-            </li>
+            </div>
             <a class="nav-link" href="galeria.html">Galería</a>
-            <a class="btn btn-outline-success btn-lg mb-2" href="contacto.html" role="button">Contacto</a>
+            <a class="btn btn-outline-success btn-lg mb-2" aria-current="page" href="contacto.html" role="button">Contacto</a>
           </div>
       </div>
+
   </div>
 </nav>
 
 <!-- Fin Navegación -->
 
+
 <!-- BreadCrumb -->
-
-
   
 <nav aria-label="breadcrumb" class="mb-0"> 
 	<ol class="breadcrumb mt-3 bg-info border-white">
-	  <li class="breadcrumb-item active"  aria-current="page"><a href="index.html">Inicio</a></li>
+    <li class="breadcrumb-item active"  aria-current="page"><a href="index.html">Inicio</a></li>
 	</ol>
-  </nav>
+</nav>
 
 <!-- Fin BreadCrumb -->
-
-
 
 
   <!-- Full Page Image Header with Vertically Centered Content -->
@@ -67,8 +68,8 @@
     <div class="container h-100">
       <div class="row h-100 align-items-center">
         <div class="col-12 text-center">
-          <h1 class="fw-light">Vertically Centered Masthead Content</h1>
-          <p class="lead">A great starter layout for a landing page</p>
+          <h1 class="fw-light">Club Avilés Tenis de Mesa</h1>
+          <p class="lead">Página web del Club</p>
         </div>
       </div>
     </div>
@@ -77,10 +78,8 @@
   <!-- Page Content -->
   <section class="py-5">
     <div class="container border">
-      <h2 class="fw-light">Page Content</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ab nulla dolorum autem nisi officiis
-        blanditiis voluptatem hic, assumenda aspernatur facere ipsam nemo ratione cumque magnam enim fugiat
-        reprehenderit expedita.</p>
+      <h2 class="fw-light">Bienvenido</h2>
+      <p>Bienvenido a la página web del Cluba Avilés Tenis de Mesa. Desde aquí podrás consultar toda la infromación de nuestro equipo así como ponerte en contacto con nosotros. </p>
     </div>
   </section>
   
@@ -93,132 +92,127 @@
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
-      <div class="carousel-item active" style="background-image: url('assets/images/vet.jpg')">
+      <div class="carousel-item active" style="background-image: url('assets/images/intro/intro1.jpg')">
         <div class="carousel-caption">
-          <h5>First slide label</h5>
-          <p>Some representative placeholder content for the first slide.</p>
+          <h5>Imagen 1</h5>
+          <p>Imagen 1 desc.</p>
         </div>
       </div>
-      <div class="carousel-item" style="background-image: url('assets/images/liga.jpg')">
+      <div class="carousel-item" style="background-image: url('assets/images/intro/intro2.jpg')">
         <div class="carousel-caption">
-          <h5>Second slide label</h5>
-          <p>Some representative placeholder content for the second slide.</p>
+          <h5>Imagen 2</h5>
+          <p>Imagen 2 desc.</p>
         </div>
       </div>
-      <div class="carousel-item" style="background-image: url('assets/images/part.jpg')">
+      <div class="carousel-item" style="background-image: url('assets/images/intro/intro3.jpg')">
         <div class="carousel-caption">
-          <h5>Third slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p>
+          <h5>Imagen 3</h5>
+          <p>Imagen 3 desc.</p>
         </div>
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
+      <span class="visually-hidden">Anterior</span>
     </button>
     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
+      <span class="visually-hidden">Siguiente</span>
     </button>
   </div>
 </header>
-
-
-
-
   
 
   
   <!-- Page Content -->
-  <section class="py-5">
+  <!-- <section class="py-5">
     <div class="container">
       <h1 class="fw-light">Half Page Image Slider</h1>
       <p class="lead">The background images for the slider are set directly in the HTML using inline CSS. The images
         in this snippet are from <a href="https://unsplash.com">Unsplash</a>!</p>
     </div>
-  </section>
+  </section> -->
 
 
-  <!-- FOOTER -->
+  <!-- Footer -->
 
-
-<div class="container-fluid my-5">
+  <div class="container-fluid my-5">
   
-  <footer class="text-center text-lg-start text-dark bg-light">
-
-    <section class="d-flex justify-content-between p-4 text-white ft">
-      <div class="me-5">
-      </div>
-      <div>
-        <i class="fa-solid fa-table-tennis-paddle-ball fa-flip-horizontal fa-3x"></i>
-      </div>
-    </section>
-
-    <section class="">
-      <div class="container text-center text-md-start mt-5">
-        <div class="row mt-3">
-
-          <div class="col-12 col-sm-3 mx-auto mb-4">
-            <h6 class="text-uppercase fw-bold">Club Avilés Tenis de Mesa</h6>
-            
-            <hr class="mb-2 mt-0 d-inline-block mx-auto fthr" />
-            <div class="text-center">
-              <img src="assets/images/logo-small.png" style="width:80px;margin: auto;" id="logo" class="logo" />
+    <footer class="text-center text-lg-start text-dark bg-light">
+  
+      <section class="d-flex justify-content-between p-4 text-white ft">
+        <div class="me-5">
+        </div>
+        <div>
+          <i class="fa-solid fa-table-tennis-paddle-ball fa-flip-horizontal fa-3x"></i>
+        </div>
+      </section>
+  
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-3">
+  
+            <div class="col-12 col-sm-3 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold">Club Avilés Tenis de Mesa</h6>
+              
+              <hr class="mb-2 mt-0 d-inline-block mx-auto fthr" />
+              <div class="text-center">
+                <img src="assets/images/logo-small.png" style="width:80px;margin: auto;" class="logo" alt="Escudo del club" />
+              </div>
+              <p>
+                <i class="fa-solid fa-table-tennis-paddle-ball pr-2"></i>1985<i class="fa-solid fa-table-tennis-paddle-ball fa-flip-horizontal pr-2"></i>
+              </p>
             </div>
-            <p>
-              <i class="fa-solid fa-table-tennis-paddle-ball pr-2"></i>1985<i class="fa-solid fa-table-tennis-paddle-ball fa-flip-horizontal pr-2"></i>
-            </p>
-          </div>
-
-          <div class="col-12 col-sm-6 mx-auto mb-4">
-            
-            <a href="index.html">
-              <h6 class="text-uppercase fw-bold"><span class="mb-4 mt-0 d-inline-block mx-auto linkft">Inicio</span></h6>
-            </a>
-            <a href="historia.html">
-              <h6 class="text-uppercase fw-bold"><span class="mb-4 mt-0 d-inline-block mx-auto linkft">Historia</span></h6>
-            </a>
-            <a href="galeria.html">
-              <h6 class="text-uppercase fw-bold"><span class="mb-4 mt-0 d-inline-block mx-auto linkft">Galeria</span></h6>
-            </a>
-            
-            <div>
-              <a href="https://www.facebook.com/pages/Club-Avil%C3%A9s-Tenis-de-Mesa/119929431457084" target="_blank" class="text-dark me-4 px-2">
-                  <i class="fab fa-facebook-f fa-3x"></i>
+  
+            <div class="col-12 col-sm-6 mx-auto mb-4">
+              
+              <a href="index.html">
+                <h6 class="text-uppercase fw-bold"><span class="mb-4 mt-0 d-inline-block mx-auto linkft">Inicio</span></h6>
               </a>
-              <a href="https://twitter.com/avilestm" target="_blank" class="text-dark me-4 px-2">
-                  <i class="fab fa-twitter fa-3x"></i>
+              <a href="historia.html">
+                <h6 class="text-uppercase fw-bold"><span class="mb-4 mt-0 d-inline-block mx-auto linkft">Historia</span></h6>
               </a>
-              <a href="https://www.instagram.com/clubavilestm" target="_blank" class="text-dark me-4 px-2">
-                  <i class="fab fa-instagram fa-3x"></i>
+              <a href="galeria.html">
+                <h6 class="text-uppercase fw-bold"><span class="mb-4 mt-0 d-inline-block mx-auto linkft">Galeria</span></h6>
               </a>
+              
+              <div>
+                <a href="https://www.facebook.com/pages/Club-Avil%C3%A9s-Tenis-de-Mesa/119929431457084" target="_blank" class="text-dark me-4 px-2">
+                    <i class="fab fa-facebook-f fa-3x"></i>
+                </a>
+                <a href="https://twitter.com/avilestm" target="_blank" class="text-dark me-4 px-2">
+                    <i class="fab fa-twitter fa-3x"></i>
+                </a>
+                <a href="https://www.instagram.com/clubavilestm" target="_blank" class="text-dark me-4 px-2">
+                    <i class="fab fa-instagram fa-3x"></i>
+                </a>
+              </div>
+              
             </div>
             
-          </div>
-          
-          <div class="col-12 col-sm-3 mx-auto mb-md-0 mb-4">
-            <a href="contacto.html">
-              <h6 class="text-uppercase fw-bold"><span class="mb-4 mt-0 d-inline-block mx-auto linkft">Contacto</span></h6>
-            </a>
-            <p><i class="fas fa-home mr-3"></i> Polideportivo de La Magdalena, Avilés, Asturias</p>
-            <p><i class="fas fa-envelope mr-3"></i> avilestm@gmail.com</p>
-            <p><i class="fas fa-phone mr-3"></i> 696 56 57 61</p>
-            <p><i class="fas fa-print mr-3"></i> 985 56 03 92</p>
+            <div class="col-12 col-sm-3 mx-auto mb-md-0 mb-4">
+              <a href="contacto.html">
+                <h6 class="text-uppercase fw-bold"><span class="mb-4 mt-0 d-inline-block mx-auto linkft">Contacto</span></h6>
+              </a>
+              <p><i class="fas fa-home mr-3"></i> Polideportivo de La Magdalena, Avilés, Asturias</p>
+              <p><i class="fas fa-envelope mr-3"></i> avilestm@gmail.com</p>
+              <p><i class="fas fa-phone mr-3"></i> 696 56 57 61</p>
+              <p><i class="fas fa-print mr-3"></i> 985 56 03 92</p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-
-    <div class="text-center p-3 bg-secondary text-white">
-      <i class="fa-regular fa-copyright"></i>
-      2022 Club Avilés T. M.
-    </div>
+      </section>
   
-  </footer>
-
-</div>
-
-  <!-- FIN FOOTER ======= -->
+      <div class="text-center p-3 bg-secondary text-white">
+        <i class="fa-regular fa-copyright"></i>
+        2022 Club Avilés T. M.
+      </div>
+    
+    </footer>
+  
+  </div>
+  
+  <!-- Fin Footer -->
   
       
     <script src="assets/js/script.js"></script>
