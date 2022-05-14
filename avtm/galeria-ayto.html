@@ -36,23 +36,37 @@
         <span class="navbar-brand mx-1 pr-0 nav-link d-inline-block d-sm-none">Club Avilés T. M.</span>
       </a>
         
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
       
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <div class="navbar-nav ml-auto">
-            <a class="nav-link" href="index.html">Inicio</a>
-            <div class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Historia</a>
-              <ul class="dropdown-menu" aria-labelledby="dropdown04">
-                <li><a class="dropdown-item" href="historiaClub.html">Club</a></li>
-                <li><a class="dropdown-item" href="historiaEscudo.html">Escudo</a></li>
-              </ul>
-            </div>
-            <a class="nav-link" href="galeria.html">Galería</a>
-            <a class="btn btn-outline-success btn-lg mb-2 active" aria-current="page" href="contacto.html" role="button">Contacto</a>
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="index.html">Inicio</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Historia
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="historiaClub.html">Club</a></li>
+                  <li><a class="dropdown-item" href="historiaEscudo.html">Escudo</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="galeria.html">Galería</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-outline-success btn-lg mb-2" aria-current="page" href="contacto.html" role="button">Contacto</a>
+              </li>
+            </ul>
+            
           </div>
       </div>
-
   </div>
 </nav>
 
@@ -299,8 +313,10 @@
   
   <!-- Fin Footer -->
 
-    <script src="assets/js/scroll.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <script src="assets/js/scroll.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     
 </body>
 </html>
+
