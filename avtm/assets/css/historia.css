@@ -1,3 +1,16 @@
+.histolink:hover {
+  color: #fff;
+  background-color: #F29580;
+}
+
+
+@media (max-width: 330px) {
+  .histolink {
+    font-size: 1rem;
+  }
+}
+
+
 .featurette-divider {
     margin: 5rem 0;
   }
