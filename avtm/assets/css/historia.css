@@ -1,6 +1,12 @@
 .histolink:hover {
   color: #fff;
   background-color: #F29580;
+  
+}
+
+.histolink {
+  font-size: 2rem;
+  font-weight: bolder;
 }
 
 
